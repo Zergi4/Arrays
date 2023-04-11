@@ -25,5 +25,28 @@ public class Main {
                 System.out.print(",");
             }
         }
+        System.out.println();
+        for (int i = 2; i >= 0; i--) {   //печатаем первый массив в обратном порядке
+            System.out.print(arr1[i]);
+            if (i != 0) {
+                System.out.print(",");
+            }
+        }
+        System.out.println();
+        for (int i = 2; i >= 0; i--) { //печатаем второй массив в обратном порядке
+            System.out.print(arr2[i]);
+            if (i != 0) {
+                System.out.print(",");
+            }
+        }
+        System.out.println();
+        for (int i = 2; i >= 0; i--) { //печатаем третий массив в обратном порядке
+            System.out.print(arr3[i]);
+            if (i != 0) {
+                System.out.print(",");
+            }
+        }
+
+
     }
 }
